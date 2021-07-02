@@ -78,10 +78,11 @@ h2 {
 }
 
 .line {
-    height: :6px;
+    height: 6px;
     background-color: black;
     width: 70px;
     margin: 8px auto;
+    margin-top: 0px;
 }
 
 p {
@@ -96,4 +97,13 @@ p {
     position: relative;
     text-align: center;
     vertical-align: middle;
+}
+a{
+    text-decoration: none;
+}
+.article:hover{
+    color: fuchsia;
+}
+html{
+    scroll-behavior: smooth;
 }
