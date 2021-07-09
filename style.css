@@ -7,26 +7,27 @@ body {
 .menu{
     list-style: none;
     font-family: fantasy;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+    position: fixed;
+    top: 0px;
     z-index: 10;
     cursor: pointer;
+    background: white;
+    margin-top: 0px;
+    width: 100%
 }
 
 .links{
-    float: left;
+    display: inline;
     color:deeppink;
-    padding-top: 5px;
-    padding-right: 9px;
-    padding-left: 9px;
-    padding-bottom: 5px;
+    padding-right: 25px;
+    padding-left: 33px;
     font-family: cursive;
     font-size: 20px;
 }
 
 .links:hover{
-    background-color: blue;
+    text-decoration: underline;
+    font-size: 25px;    
 }
 .profile {
     width: 150px;
@@ -92,7 +93,7 @@ p {
     line-height: 1.3
 }
 
-.Intro {
+.parallax-inner {
     display: table-cell;
     position: relative;
     text-align: center;
@@ -100,10 +101,31 @@ p {
 }
 a{
     text-decoration: none;
+    text-shadow: 2px 2px gainsboro;
+    color: crimson;
 }
 .article:hover{
     color: fuchsia;
 }
 html{
     scroll-behavior: smooth;
+}
+#contacts{
+    background: firebrick;
+}
+#writing a{
+    text-decoration: underline !important;
+    text-shadow: none !important;
+    color: blue !important;
+}
+
+#contacts iframe{
+    width: 100%;
+}
+.advait h3{
+    display: inline;
+}
+.advait a{
+    color: white;
+    text-shadow: none;
 }
